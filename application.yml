@@ -1,2 +1,7 @@
 general:
   kafka-topic: trader-updates
+
+spring:
+  kafka:
+    consumer:
+      group-id: midas-core-consumer-group
